@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z-Index</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+    }
+    .div-1 {
+      background-color: green;
+      height: 200px;
+    }
+
+    .div-2 {
+      height: 200px;
+      width: 1000px;
+      background-color: indigo;
+      z-index: 1;
+      margin: auto;
+      position: relative;
+      margin-top: -20px;
+      margin-bottom: -20px;
+    }
+    .div-3 {
+      z-index: 2;
+      height: 200px;
+      background-color: green;
+    }
+  </style>
+  <body>
+    <div class="div-1"></div>
+    <div class="div-2"></div>
+    <div class="div-3"></div>
+  </body>
+</html>
