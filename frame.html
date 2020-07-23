@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    .photo-frame img {
+      width: 100%;
+    }
+    .photo-frame:hover img {
+      transform: scale(1.3);
+      transition: linear 2s;
+    }
+    .photo-frame {
+      height: 360px;
+      width: 350px;
+      border: 10px solid slateblue;
+      border-radius: 5px;
+      position: relative;
+      margin: 10px;
+      overflow: hidden;
+    }
+    .photo-detail {
+      top: 0;
+      height: 360px;
+      width: 350px;
+      position: absolute;
+      display: none;
+      background-color: hsla(34, 94%, 52%, 0.192);
+    }
+    .photo-frame:hover .photo-detail {
+      display: block;
+    }
+    .photo-album {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  </style>
+  <body>
+    <h1>My Photo</h1>
+
+    <section class="photo-album">
+      <div class="photo-frame">
+        <div class="photo">
+          <img src="cat.jpg" alt="" />
+        </div>
+        <div class="photo-detail">
+          <h1>Innocent Cat</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis eveniet magni in distinctio odio, amet nam delectus
+            assumenda! Cumque, magnam.
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo">
+          <img src="cat.jpg" alt="" />
+        </div>
+        <div class="photo-detail">
+          <h1>Innocent Cat</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis eveniet magni in distinctio odio, amet nam delectus
+            assumenda! Cumque, magnam.
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo">
+          <img src="cat.jpg" alt="" />
+        </div>
+        <div class="photo-detail">
+          <h1>Innocent Cat</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis eveniet magni in distinctio odio, amet nam delectus
+            assumenda! Cumque, magnam.
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo">
+          <img src="cat.jpg" alt="" />
+        </div>
+        <div class="photo-detail">
+          <h1>Innocent Cat</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis eveniet magni in distinctio odio, amet nam delectus
+            assumenda! Cumque, magnam.
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo">
+          <img src="cat.jpg" alt="" />
+        </div>
+        <div class="photo-detail">
+          <h1>Innocent Cat</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis eveniet magni in distinctio odio, amet nam delectus
+            assumenda! Cumque, magnam.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
